@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="JLR Test Suite" parallel="false">
+
+    <test name="JLR Tests">
+        <classes>
+            <class name="jlr.test.JLRHomePageTest"/>
+            <class name="jlr.test.JLRBrandsPageTest"/>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="jlr.reports.ExtentListener"/>
+    </listeners>
+
+</suite>
